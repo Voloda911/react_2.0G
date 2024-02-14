@@ -1,0 +1,176 @@
+body {
+  background-color: rgb(210, 208, 208);
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* galere */
+.galere {
+  margin: 0;
+  padding: 0;
+}
+.galere h1:first-child {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  margin-left: 50px;
+  color: rgb(135, 135, 169);
+}
+.galere h1 {
+  font-size: 20px;
+}
+
+.galere ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  text-transform: capitalize;
+}
+.galere li {
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+  font-size: 16px;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  cursor: pointer;
+}
+
+.galere li.active {
+  color: white;
+  background-color: black;
+  transition: all 0.1s;
+}
+.galere li:hover {
+  border: 1px solid black;
+}
+
+.galere input {
+  border-radius: 10px;
+  list-style: none;
+  color: black;
+  font-size: 16px;
+  border: none;
+  background-color: white;
+}
+
+/* gallery */
+.gallery_content {
+  display: flex;
+  justify-content: center;
+}
+.colection_big img {
+  width: 345px;
+  cursor: pointer;
+  height: 200px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.colection_mini img {
+  width: 95px;
+  cursor: pointer;
+
+  height: 80px;
+  border-radius: 10px;
+}
+.colection_mini img:hover {
+  box-shadow: 0px 7px 12px rgba(0, 0, 0, 0.2);
+}
+.colection_big img:hover {
+  box-shadow: 0px 7px 12px rgba(0, 0, 0, 0.2);
+}
+/* modal */
+.window {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8); /* Делаем фон более темным */
+  height: 100vh; /* Используйте vh для высоты, чтобы покрыть весь экран */
+  width: 100vw; /* Используйте vw для ширины, чтобы покрыть весь экран */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10; /* Убедитесь, что модальное окно будет поверх других элементов */
+}
+
+.modal {
+  position: relative;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 11;
+}
+.modal_btn {
+  background: none;
+  border: none;
+  background-color: #f1f1f1;
+  border-radius: 6px;
+  opacity: 0.6;
+  position: relative;
+}
+.modal_btn img {
+  color: #fff;
+}
+.modal img {
+  max-width: 90vw; /* Ограничиваем ширину изображения */
+  max-height: 80vh; /* Ограничиваем высоту изображения */
+  margin: 0 auto; /* Центрируем изображение */
+  display: block;
+}
+
+.modal button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 0px 0px;
+}
+
+.colection_mini {
+  display: flex;
+  gap: 35px;
+}
+.gallery {
+  border-radius: 10px;
+  padding: 25px 15px;
+  background-color: #f1f1f1;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 50px;
+  align-items: center;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.gallery:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 7px 12px rgba(0, 0, 0, 0.2);
+}
+.elements {
+  display: flex;
+  flex-wrap: wrap;
+}
+.name {
+  width: 100%;
+  text-align: start;
+  text-transform: capitalize;
+  font-size: 10px;
+  color: saddlebrown;
+}
+/* rect {
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+  animation: draw 2s forwards;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+} */
+@media (max-width: 425px) {
+  body {
+    background-color: #0c0101;
+  }
+}

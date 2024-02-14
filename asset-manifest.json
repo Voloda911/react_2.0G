@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Voloda911/Gallery__React.git/static/css/main.e9caa735.css",
+    "main.js": "/Voloda911/Gallery__React.git/static/js/main.fc9242ae.js",
+    "static/media/pexels-alfonso-escalante-2533092.jpg": "/Voloda911/Gallery__React.git/static/media/pexels-alfonso-escalante-2533092.87652a366200e6a01d76.jpg",
+    "static/media/pexels-dominika-roseclay-1252500.jpg": "/Voloda911/Gallery__React.git/static/media/pexels-dominika-roseclay-1252500.dc8c65a9f92958e8e351.jpg",
+    "static/media/pexels-element-digital-1051075.jpg": "/Voloda911/Gallery__React.git/static/media/pexels-element-digital-1051075.85d40b27bd89e1e1e04a.jpg",
+    "static/media/pexels-chevanon-photography-333525.jpg": "/Voloda911/Gallery__React.git/static/media/pexels-chevanon-photography-333525.b19a09f6cc37cc19fb84.jpg",
+    "index.html": "/Voloda911/Gallery__React.git/index.html",
+    "static/media/close_FILL0_wght400_GRAD0_opsz24.svg": "/Voloda911/Gallery__React.git/static/media/close_FILL0_wght400_GRAD0_opsz24.fe09be7bf63fe29dc7ac236893cc818f.svg",
+    "main.e9caa735.css.map": "/Voloda911/Gallery__React.git/static/css/main.e9caa735.css.map",
+    "main.fc9242ae.js.map": "/Voloda911/Gallery__React.git/static/js/main.fc9242ae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9caa735.css",
+    "static/js/main.fc9242ae.js"
+  ]
+}

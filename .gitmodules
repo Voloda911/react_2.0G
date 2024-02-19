@@ -1,3 +1,5 @@
 [submodule "Gallery__React"]
     path = node_modules/.cache/gh-pages/Gallery__React
     url = https://github.com/Voloda911/Gallery__React.git
+/node_modules
+/build
